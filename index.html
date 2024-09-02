@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que bello que es vivir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <h1>¡Qué Bello es Vivir! </h1>
+        <h2 id="subtitulo">Sinapsis de la película</h2>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#elenco">Elenco</a></li>
+            <li><a href="#mirala">Mírala</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <div class="grid-container">
+    <section id="intro">
+        <picture>
+            <img src="./multimedia/BackgroundEraser_20240901_120617020.png" alt="imagen de cartelera de la pelicula, donde se ve a los dos protagonistas">
+        </picture>
+        <p>La siguiente página web, es construido como trabajo final del Curso de Introducción a CSS de Itgrate.<br>
+        En la misma cuento un poco de una de mis películas favoritas y juego con algunas funciones de CSS.<br>
+        Espero que disfruten la pelicula.</p>
+    </section>
+    <section id="resumen">
+
+        <h2>Resumen</h2>
+        <br>
+        <p>“Qué bello es vivir” es una película dirigida por Frank Capra y estrenada en 1946. La historia sigue a George Bailey, un hombre que ha dedicado su vida a ayudar a los demás en su pequeña comunidad de Bedford Falls, sacrificando sus propios sueños en el proceso. En la víspera de Navidad, George se encuentra en una situación desesperada y contempla el suicidio. Sin embargo, su ángel de la guarda, Clarence, interviene y le muestra cómo sería la vida en su pueblo si él nunca hubiera existido. A través de esta experiencia, George se da cuenta del impacto positivo que ha tenido en las vidas de muchas personas y redescubre el valor de su propia vida.</p>
+        <img src="./multimedia/familia.jpeg" alt="imagen de la pelicula, cuando finalmente la famila se reune luego de su epifania">
+    </section>
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>La producción de “Qué bello es vivir” comenzó en 1945, poco después del final de la Segunda Guerra Mundial. Frank Capra, conocido por sus películas optimistas y humanistas, quería crear una película que reflejara la esperanza y la bondad inherente en las personas. El guion se basó en el cuento “The Greatest Gift” de Philip Van Doren Stern. A pesar de un inicio lento en la taquilla, la película fue nominada a cinco premios Oscar y con el tiempo se convirtió en un clásico navideño, especialmente después de que entrara en el dominio público y se transmitiera ampliamente en televisión.</p>
+    </section>
+    <section id="elenco">
+        <h2>Elenco</h2>
+        <p>El elenco de “Qué bello es vivir” está encabezado por James Stewart en el papel de George Bailey. Donna Reed interpreta a Mary Hatch Bailey, la esposa de George. Lionel Barrymore da vida al antagonista Henry F. Potter, mientras que Henry Travers interpreta al ángel de la guarda, Clarence. Otros miembros destacados del elenco incluyen a Thomas Mitchell como el Tío Billy, Beulah Bondi como la madre de George, y Gloria Grahame como Violet Bick. La actuación de Stewart fue especialmente aclamada y es considerada una de las mejores de su carrera.</p>
+        <img src="./multimedia/pareja.jpeg" alt="foto de los personajes principales">
+    </section>
+    <section id="mirala">
+        <h2>Mírala</h2>
+        <p>En esta página puedes ver las película original en blanco y negro, o acceder a la audio descripción</p>
+        <div class="laPelicula">
+            <div class="audio-container">
+                
+                <a href="https://drive.google.com/file/d/1YIfTu-tIcP962GhcyMjQVuOnH3HhbSeS/view?usp=drivesdk">Descarga la audio-description</a>
+                </div>
+
+
+            <div class="video-container">
+            <div id="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rmteddIVIp0?si=iTI7wU0FVU_W82Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="campana">
+        <h2>Toca la Campana</h2>
+        
+            <img src="./multimedia/campana.gif" alt="Campana" tabindex="0" role="button" aria-pressed="false">
+            <audio id="campana-audio" src="./multimedia/Efecto de sonido 🛎️Campana de Servicio🛎️.MP3"></audio>
+            <div id="alerta" aria-live="assertive" style="display:none;">¡Un ángel acaba de ganar sus alas!</div>
+
+        
+
+    </section>
+</main>
+<footer>
+
+</footer>
+    <script src="index.js"></script>
+</div>
+</body>
+</html>
