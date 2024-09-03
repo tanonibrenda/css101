@@ -41,6 +41,7 @@
     <section id="historia">
         <h2>Historia</h2>
         <p>La producción de “Qué bello es vivir” comenzó en 1945, poco después del final de la Segunda Guerra Mundial. Frank Capra, conocido por sus películas optimistas y humanistas, quería crear una película que reflejara la esperanza y la bondad inherente en las personas. El guion se basó en el cuento “The Greatest Gift” de Philip Van Doren Stern. A pesar de un inicio lento en la taquilla, la película fue nominada a cinco premios Oscar y con el tiempo se convirtió en un clásico navideño, especialmente después de que entrara en el dominio público y se transmitiera ampliamente en televisión.</p>
+        <img src="./multimedia/baile.jpg" alt="escena de la película con los protagonistas bailando">  
     </section>
     <section id="elenco">
         <h2>Elenco</h2>
@@ -60,7 +61,7 @@
 
             <div class="video-container">
             <div id="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rmteddIVIp0?si=iTI7wU0FVU_W82Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rmteddIVIp0?si=iTI7wU0FVU_W82Dg" title="Pelicula Completa en Español latino en Youtube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             
@@ -76,10 +77,50 @@
         
 
     </section>
-</main>
+    <section id="comentarios">
+        <h2>Comentarios</h2>
+        <form id="comentarios-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="lista-comentarios"></div>
+    </section>
+</div>
+    </main>
 <footer>
-
+    <div class="footer-section">
+        <h3>Secciones</h3>
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#elenco">Elenco</a></li>
+            <li><a href="#mirala">Mírala</a></li>
+            <li><a href="#campana">Campana</a></li>
+            <li><a href="#comentarios">Comentarios</a></li>
+        </ul>
+    </div>
+    <div class="footer-section">
+        <h3>Contacto</h3>
+        <a href="mailto: brendayohenatanoni@gmail.com" ><p style="color: white;">Email: brendayohenatanoni@gmail.com</p></a>
+        <a href="tel:+5491157256883"><p style="color: white;">Teléfono: +5491157256883</p></a>
+    </div>
+    <div class="footer-section">
+        <div class="contactFooter">
+        <h3>Redes Sociales</h3>
+        <ul>
+            <li><a href="https://github.com/tanonibrenda/css101.git" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/brenda-yohena-tanoni-82430146/" target="_blank">Linkedin</a></li>
+            
+        </ul>
+        </div>
+    </div>
 </footer>
+
+
     <script src="index.js"></script>
 </div>
 </body>
